@@ -1,0 +1,53 @@
+.video {
+    position: relative;
+}
+
+.video a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video a img {
+    width: 120px;
+    height: 120px;
+}
+
+section.vidSec {
+    padding: 6rem 0 7rem;
+    position: relative;
+}
+
+.vidSec .secHead h2 span,
+.simplify_Insurance .secHead h2 span {
+    color: #FBAF40;
+    font-size: 48px;
+}
+.digitDot {
+    position: absolute;
+    right: 0;
+    top: -42px;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.digitDot img {
+    width: 130px;
+}
+
+.secHead h2 {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.secHead p {
+    font-size: 16px!important;
+    line-height: 1.8;
+    color: #263F65;
+    /* font-weight: 800; */
+}

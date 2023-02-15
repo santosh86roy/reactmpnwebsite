@@ -1,0 +1,26 @@
+.products {
+    padding: 3rem 0 0 0
+}
+
+.products .secHead h2:after {
+    left: 0
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.products ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0
+}
+
+.products ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.products .product img {
+    max-width: 100px;
+}

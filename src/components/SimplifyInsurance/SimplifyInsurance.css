@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "graphik";
+    src: url("../../fonts/GraphikRegular.otf");
+}
+@font-face {
+    font-family: "graphik bold";
+    src: url("../../fonts/GraphikBold.otf");
+}
+
+@font-face {
+    font-family: "graphik medium";
+    src: url("../../fonts/GraphikMedium.otf");
+}
+@font-face {
+    font-family: "graphik semibold";
+    src: url("../../fonts/GraphikSemibold.otf");
+}
+@font-face {
+    font-family: "graphik light";
+    src: url("../../fonts/GraphikLight.otf");
+}
+@font-face {
+    font-family: "graphik extralight";
+    src: url("../../fonts/GraphikExtralight.otf");
+}
+
+.simplify_Insurance {
+    position: relative;
+}
+
+.vidSec .secHead h2 span,
+.simplify_Insurance .secHead h2 span {
+    color: #FBAF40
+}
+.simplify_Insurance .digitDot {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.simplify_Insurance .digitDot img {
+    width: 120px;
+}
+.timeLine ul {
+    /*border-left: 1px solid #707070;*/
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.timeLine ul li {
+    display: flex;
+    margin-bottom: 0;
+    position: relative;
+    
+}
+
+.timeLine ul li .icons {
+    margin-right: 25px;
+    margin-left: 26px;
+}
+
+.timeLine ul li .icons:before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    background: #707070;
+    left: -29px;
+
+}
+
+.timeLine ul li:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #707070;
+    left: -30px;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.timeLine ul li:nth-child(1):before {
+    top: 55px;
+}
+
+
+.timeLine ul li:nth-child(6):before {
+    bottom: 116px;
+}
+.timeLine ul li .icons {
+    box-shadow: 0 5px 8px rgb(0 0 0 / 19%);
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 110px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 110px;
+    max-width: 110px;
+}
+
+.timeLine ul li .icons img {
+    max-height: 70px;
+}
+
+.timeLine ul li .txt {
+    margin-left: 20px;
+}
+
+.timeLine ul li .txt h6 {
+    font-size: 20px;
+    color: #000;
+    font-family: "graphik semibold";
+    font-weight: 400;
+}
+
+.timeLine ul li:nth-child(5) .icons img {
+    max-height: 30px
+}
+
+.timeLine ul li .txt p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #263F65;
+
+}
+p {
+    font-size: 14px!important;
+    line-height: 1.8;
+    color: #263F65;
+}

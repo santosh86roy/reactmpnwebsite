@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "graphik";
+    src: url("../../fonts/GraphikRegular.otf");
+}
+@font-face {
+    font-family: "graphik bold";
+    src: url("../../fonts/GraphikBold.otf");
+}
+
+@font-face {
+    font-family: "graphik medium";
+    src: url("../../fonts/GraphikMedium.otf");
+}
+@font-face {
+    font-family: "graphik semibold";
+    src: url("../../fonts/GraphikSemibold.otf");
+}
+@font-face {
+    font-family: "graphik light";
+    src: url("../../fonts/GraphikLight.otf");
+}
+@font-face {
+    font-family: "graphik extralight";
+    src: url("../../fonts/GraphikExtralight.otf");
+}
+
+
+.grayBG {
+    background: #f2f2f2;
+    width: 99vw;
+}
+
+section.sliderSec {
+    padding-top: 0
+}
+
+.sliderSec .secHead h1 span,
+.aboutUs .secHead h1 span {
+    color: #24AAE0
+}
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    text-indent: -999px;
+    border: 1px solid #FCB040;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    background: transparent;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.carousel-indicators li.active {
+    background: #FCB040
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    right: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    list-style: none;
+    left: auto;
+    display: block;
+}
+
+.banner_content h5 {
+    margin-top: 3rem;
+    color: #263F65;
+    margin-bottom: 20px;
+    font-family: inherit;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+
+.banner_content .btn {
+    padding: 6px 45px;
+    margin-right: 25px;
+}
+.round-btn {
+    padding: 6px 35px;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.secHead h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    line-height: 1.2;
+    color: inherit;
+    
+}
+
+.secHead h1 span {
+    display: block;
+    font-weight: bold;
+    font-family: "graphik bold";
+    font-size: 52px;
+}
+.secHead p {
+    font-size: 16px!important;
+    line-height: 1.8;
+    color: #263F65;
+    /* font-weight: 800; */
+
+}
+
+.greenbtn {
+    background: #39B54A;
+    color: #fff;
+    box-shadow: 0 0 13px #39B54A;
+}
+
+.greenbtn:hover {
+    background: #13A727
+}
+
+.orangebtn {
+    background: #FCB040;
+    color: #fff;
+    box-shadow: 0 0 13px #FCB040;
+}
+
+.orangebtn:hover {
+    background: #DE8D18
+}
+.banner_content h5 {
+    margin-top: 3rem;
+    color: #263F65;
+    margin-bottom: 20px
+}
+
+.banner_content .btn {
+    padding: 6px 45px;
+    margin-right: 25px;
+}
+
+.slider-description-text {
+    font-weight: "400";
+}

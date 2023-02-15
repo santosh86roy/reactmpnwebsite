@@ -1,0 +1,89 @@
+.client_testi .secHead h2 span {
+    color: #39B549
+}
+
+.slick-slide {
+    transform: scale(0.8);
+}
+
+.slick-active.slick-center {
+    transform: scale(1);
+}
+.slick-center{
+    width: 800px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #03C157;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.clientSpeaks {
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 1px solid #8F8F8F;
+    margin: 0 18rem;
+    border-radius: 25px;
+    border: 1px solid #03C157;
+}
+
+.slick-active.slick-center .clientSpeaks {
+    border: 1px solid #03C157;
+}
+
+.clientSpeaks img {
+    margin: 0 auto;
+    width: 110px;
+}
+
+.clientSpeaks h6 {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #4A4A4A;
+    font-size: 26px;
+    
+}
+
+.clientSpeaks p {
+    color: #505050;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.clientSpeaks p.speaker {
+    font-style: normal;
+}
+
+.clientSpeaks p.speaker span {
+    display: block;
+}
+
+
+/* .slick-slider {
+width: 100%;
+background-color: transparent;
+}
+.slick-track {
+display: flex;
+align-items: center;
+flex-wrap: nowrap;
+height: 100px;
+justify-content: center;
+} */
+
+
+@media only screen and (max-width: 600px) {
+
+    .slick-center{
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        margin: 0%;
+       
+    }
+
+
+}

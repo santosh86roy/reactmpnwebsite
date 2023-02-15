@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "graphik";
+    src: url("../../fonts/GraphikRegular.otf");
+}
+@font-face {
+    font-family: "graphik bold";
+    src: url("../../fonts/GraphikBold.otf");
+}
+
+@font-face {
+    font-family: "graphik medium";
+    src: url("../../fonts/GraphikMedium.otf");
+}
+@font-face {
+    font-family: "graphik semibold";
+    src: url("../../fonts/GraphikSemibold.otf");
+}
+@font-face {
+    font-family: "graphik light";
+    src: url("../../fonts/GraphikLight.otf");
+}
+@font-face {
+    font-family: "graphik extralight";
+    src: url("../../fonts/GraphikExtralight.otf");
+}
+
+
+
+.advisorOffer {
+    margin: 3rem 0 4rem;
+    position: relative;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.advisorOffer .secHead h2 span {
+    color: #24AAE0;
+    font-size: 40px;
+    font-weight: 400;
+}
+.advisorOffer .offer {
+    text-align: center;
+    margin: 4rem 0 0rem;
+}
+.advisorOffer .offer h5 {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-family: "graphik semibold";
+}
+
+.advisorOffer .offer h5:after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 1px;
+    background: #707070;
+    bottom: -1rem;
+    left: 40%;
+}
+
+.advisorOffer .offer img {
+    max-width: 60px;
+    height: auto
+}
+p {
+    font-size: 14px!important;
+    line-height: 1.8;
+    color: #263F65;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .advisorOffer .secHead h2 span {
+        font-size: 20px;
+        
+    }
+
+
+
+
+}

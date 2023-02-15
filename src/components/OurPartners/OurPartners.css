@@ -1,0 +1,55 @@
+.partners .secHead h2 span {
+    color: #EE4036;
+    display: inline-block;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.partners{
+    width: 99vw;
+}
+.partners .secHead h2:after {
+    left: 0;
+}
+.partners ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.partners ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    align-items: center;
+    display: flex;
+}
+
+.partners ul li img {
+    max-width: 120px
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .partners ul li {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        align-items: center;
+
+    }
+
+    .partners ul {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .partners ul li img {
+        max-width: 100px;
+        align-items: center;
+    }
+}

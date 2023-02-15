@@ -1,0 +1,134 @@
+.insureMarketPlace {
+    padding: 5rem 0 7rem;
+    width: 99vw;
+}
+
+.insureMarketPlace .secHead h2 span {
+    color: #EE4036
+}
+.numbersCount {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 15%);
+    padding-top: 3rem;
+    position: relative;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.numbersCount::after {
+    content: "+";
+    position: absolute;
+    color: #263F65;
+    right: -60px;
+    font-size: 5rem;
+    top: 45px;
+    font-family: "graphik extralight";
+    
+}
+
+.numbersCount h4 {
+    font-family: "Impact";
+    font-size: 2.8rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.numbersCount p {
+    text-align: center;
+    padding: 0 15px;
+    color: #264065;
+    margin-bottom: 0;
+    font-size: 22px;
+
+}
+
+.ismp .col-sm-3:nth-child(4) .numbersCount::after {
+    display: none;
+}
+
+.ismp .col-sm-3:nth-child(1) .numbersCount h4 {
+    color: #39B549
+}
+
+.ismp .col-sm-3:nth-child(2) .numbersCount h4 {
+    color: #FBAF40
+}
+
+.ismp .col-sm-3:nth-child(3) .numbersCount h4 {
+    color: #24AAE0
+}
+
+.ismp .col-sm-3:nth-child(4) .numbersCount h4 {
+    color: #EE4036
+}
+.numbersCount {
+    margin-bottom: 4rem;
+}
+
+ .numbersCount::after {
+    /* top: 180px; */
+    /* right: auto; */
+    /* left: 100px; */
+    /* color: #EE4036; */
+ }
+.secHead h2 {
+    font-size: 52px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.secHead h2 span {
+    display: block;
+    font-family: "graphik medium";
+}
+
+.secHead h2:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #263F65;
+    bottom: -2rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .numbersCount {
+        width: 200px;
+        height: 200px;
+
+    }
+    .ismp{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .numbersCount::after {
+        content: "+";
+        position: absolute;
+        color: #263F65;
+        right: 150px;
+        font-size: 3rem;
+        top: 200px;
+        font-family: "graphik extralight";
+        
+    }
+
+
+
+
+
+
+
+
+
+
+}

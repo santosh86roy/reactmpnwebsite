@@ -1,0 +1,462 @@
+import './App.css';
+import Footer from './components/Footer/Footer';
+// import Navbar from './components/Navbar/Navbar';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+function App() {
+  return (
+    <>
+<nav classNameName="grayBG">
+   <div className="container">
+      <div className="row">
+         <div className="col-sm-6">
+            <a href=""> <img src="images/mpn-logo.png"/></a>
+         </div>
+         <div className="col-sm-6 text-right">
+            <a href="" className="btn round-btn lightBluebtn"> Agent Login</a>
+         </div>
+      </div>
+   </div>
+</nav>
+<main role="main" >
+   <section className="sliderSec grayBG">
+      <div className="container">
+         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner">
+               <div className="carousel-item active">
+                  <div className="row flex_row">
+                     <div className="col-sm-6">
+                        <div className="banner_content secHead">
+                           <h1>Insurance <span>Made easy and simple</span></h1>
+                           <p>Buying and selling insurance has never been this simple! Our state-of-the-art technology solutions, infused with AI, make your experience integrated and user-friendly</p>
+                           <h5>Chat with us</h5>
+                           <a href="" className="btn  round-btn greenbtn">Agent</a>
+                           <a href="" className="btn round-btn orangebtn">Buyer</a>
+                        </div>
+                     </div>
+                     <div className="col-sm-6">
+                        <img src="images/header-img.png" className="img-fluid"/>
+                     </div>
+                  </div>
+               </div>
+               <div className="carousel-item">
+                  <div className="row flex_row">
+                     <div className="col-sm-6">
+                        <div className="banner_content secHead">
+                           <h1>Insurance <span>Made easy and simple</span></h1>
+                           <p>Buying and selling insurance has never been this simple! Our state-of-the-art technology solutions, infused with AI, make your experience integrated and user-friendly</p>
+                           <h5>Chat with us</h5>
+                           <a href="" className="btn  round-btn greenbtn">Agent</a>
+                           <a href="" className="btn round-btn orangebtn">Buyer</a>
+                        </div>
+                     </div>
+                     <div className="col-sm-6">
+                        <img src="images/header-img.png" className="img-fluid"/>
+                     </div>
+                  </div>
+               </div>
+               <div className="carousel-item">
+                  <div className="row flex_row">
+                     <div className="col-sm-6">
+                        <div className="banner_content secHead">
+                           <h1>Insurance <span>Made easy and simple</span></h1>
+                           <p>Buying and selling insurance has never been this simple! Our state-of-the-art technology solutions, infused with AI, make your experience integrated and user-friendly</p>
+                           <h5>Chat with us</h5>
+                           <a href="" className="btn  round-btn greenbtn">Agent</a>
+                           <a href="" className="btn round-btn orangebtn">Buyer</a>
+                        </div>
+                     </div>
+                     <div className="col-sm-6">
+                        <img src="images/header-img.png" className="img-fluid"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="vidSec">
+      <div className="digitDot">
+         <img src="images/digitalDots.png"/>
+      </div>
+      <div className="container">
+         <div className="row flex_row">
+            <div className="col-sm-6 secHead">
+               <h2>A sneak peek into our effortless  <span>insurance process!</span> </h2>
+               <p>As they say, let bygones be bygones. Seriously! Forget the days of intimidating jargons, complicated definitions and never-ending documentation. The future of insurance is here, and it’s simple.</p>
+            </div>
+            <div className="col-sm-6">
+               <div className="video">
+                  <a href=""> <img src="images/playICO.png"/> </a>
+                  <img src="images/videoImg.png" className="img-fluid"/> 
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="simplify_Insurance">
+      <div className="digitDot">
+         <img src="images/digitalDots.png"/>
+      </div>
+      <div className="container">
+         <div className="row flex_row">
+            <div className="col-sm-4 secHead">
+               <h2>How we Simplify <span>Insurance?</span> </h2>
+               <p>The world of insurance comes with Jargons and complex definitions - making it confusing, complex, and intimidating for both the buyers and sellers. We aim to change this and simplify insurance for both the buyers and sellers by:</p>
+            </div>
+            <div className="col-sm-6">
+               <div className="timeLine">
+                  <ul>
+                     <li>
+                        <div className="icons"> <img src="images/s1.svg"/>  </div>
+                        <div className="txt">
+                           <h6>Technology takes <br/> center-stage </h6>
+                           <p> Driven by AI based technological innovations, we are your go-to insurance platform for simplified processes, risk-free transactions and convenient exchange. You are our priority, and technology helps us serve you better!</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="icons"> <img src="images/s2.svg"/>   </div>
+                        <div className="txt">
+                           <h6>Seamless and <br/> effortless insurance </h6>
+                           <p> Consumer-awareness is key to our services! This means that you will know every aspect of the transaction with the help of our user-friendly interface and obstacle-free processes.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="icons"> <img src="images/s3.svg"/>   </div>
+                        <div className="txt">
+                           <h6>Jargons, what’s <br/> that? </h6>
+                           <p> We promise to make every word count, so that you are well-versed with your decisions. All the plans are free of long and complicated definitions, so that you understand every bit of it before you make a final choice.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="icons"> <img src="images/s4.svg"/>   </div>
+                        <div className="txt">
+                           <h6>Round the clock <br/> assistance </h6>
+                           <p>Problems, questions and doubts arrive unannounced. That’s why we have decided to never take a break from our help desk. You can count on us to solve your problem. We have a team of expert insurance advisors at your disposal.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="icons"> <img src="images/s5.svg"/>   </div>
+                        <div className="txt">
+                           <h6>Always with you, <br/> and for you! </h6>
+                           <p> With physical presence in over 3000 pin codes, we are always round the curb! Additionally, our multilingual platforms ensure that we understand you in every language.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div className="icons"> <img src="images/s6.svg"/>   </div>
+                        <div className="txt">
+                           <h6>Not only are we light on our documentation, but also on your pocket! </h6>
+                           <p>We offer a comprehensive range of products to meet every budget and every consumer. It has never been this affordable to avail insurance.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="advisorOffer">
+      <div className="container">
+         <div className="row ">
+            <div className="col-sm-10 secHead">
+               <h2>What does our <span>Advisor offer?</span> </h2>
+               <p>Insurance is serious business. It is, after all, an investment in prospects that affect life decisions. Every consumer who purchases a policy with half-baked information makes our belief in the remedy of simplicity only stronger. Facilitated by a digital model, supervised by a Point of Sale Person (POSP), makes your experience effortless, efficient and effective.</p>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm-3">
+               <div className="offer">
+                  <img src="images/ao1.svg"/>
+                  <h5>Instant Policy</h5>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="offer">
+                  <img src="images/ao2.svg"/>
+                  <h5>Full Claim Support</h5>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="offer">
+                  <img src="images/ao3.svg"/>
+                  <h5>Free Customized Advice</h5>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="offer">
+                  <img src="images/ao4.svg"/>
+                  <h5>Compare Premium Across 10+ Companies</h5>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="grayBG insureMarketPlace">
+      <div className="container">
+         <div className="row ">
+            <div className="col-sm-12 secHead">
+               <h2>Fastest Growing  <span>Online Insurance Marketplace: </span> </h2>
+            </div>
+         </div>
+         <div className="row ismp">
+            <div className="col-sm-3 ">
+               <div className="numbersCount">
+                  <h4> 7 Lakh+</h4>
+                  <p>  Trusting Customers,</p>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="numbersCount">
+                  <h4> 5000+</h4>
+                  <p>   Strong POSP Advisor Network</p>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="numbersCount">
+                  <h4> 10</h4>
+                  <p>  Insurance Partners,</p>
+               </div>
+            </div>
+            <div className="col-sm-3">
+               <div className="numbersCount">
+                  <p>Spread Across</p>
+                  <h4> 500+</h4>
+                  <p> Cities in India</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="products">
+      <div className="container">
+         <div className="row">
+            <div className="col-sm-11 offset-sm-1 secHead">
+               <h2>Products: </h2>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm-11 offset-sm-1">
+               <ul>
+                  <li className="product">
+                     <img src="images/product.svg"/>  
+                     <p>Product 01</p>
+                  </li>
+                  <li className="product">
+                     <img src="images/product.svg"/>  
+                     <p>Product 02</p>
+                  </li>
+                  <li className="product">
+                     <img src="images/product.svg"/>  
+                     <p>Product 03</p>
+                  </li>
+                  <li className="product">
+                     <img src="images/product.svg"/>  
+                     <p>Product 04</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="partners grayBG">
+      <div className="container">
+         <div className="row">
+            <div className="col-sm-11 offset-sm-1 secHead">
+               <h2>Our  <span>Partners: </span> </h2>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm-11 offset-sm-1">
+               <ul>
+                  <li className="partner"> <img src="images/p1.png"/>  </li>
+                  <li className="partner"> <img src="images/p2.png"/>  </li>
+                  <li className="partner"> <img src="images/p3.png"/>   </li>
+                  <li className="partner"> <img src="images/p4.png"/>   </li>
+                  <li className="partner"> <img src="images/p5.png"/>   </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="client_testi">
+      <div className="container">
+         <div className="row">
+            <div className="col-sm-12 secHead">
+               <h2>What  <span>Our Client Says </span> </h2>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm-12">
+            </div>
+         </div>
+         <div className="center">
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+            <div>
+               <div className="clientSpeak">
+                  <img src="images/testi1.png"/>
+                  <h6> Mr. Puran Singh Rajawat </h6>
+                  <p>My Policy Now gave a new direction to my career as an Insurance advisor. With MPN, I got an option to sell the insurance policies of multiple companies associated with My Policy Now & it gave me a platform to earn more money</p>
+                  <p className="speaker">Insurance Head <span>K S Motor Jaipur </span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+   </section>
+   <section className="becomeAgent">
+      <div className="container">
+         <div className="row flex_row">
+            <div className="col-sm-4">
+               <img src="images/licAgent.png" className="img-fluid"/>
+            </div>
+            <div className="col-sm-5 becomeAgent_txt">
+               <h2>Become a <span>Certified POSP</span></h2>
+               <h5>Our onboarding POS agents <span> 5,000+</span> and counting</h5>
+               <a href="" className="btn round-btn whitebtn">Register</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="become_posp">
+      <div className="container">
+         <div className="row">
+            <div className="col-sm-10 secHead">
+               <h2>Why Become a <span>mypolicynow POSP Advisor </span> </h2>
+            </div>
+         </div>
+         <div className="row">
+            <div className="col-sm-9">
+               <p>We make lives better by streamlining the insurance broking ecosystem. We take pride in our multiple cross sell platform, and by becoming a myPolicynow Advisor, you can too! </p>
+               <ul>
+                  <li> Zero investment business opportunity </li>
+                  <li> Free POSP Certification under IRDAI guidelines</li>
+                  <li> Attractive Pay-outs </li>
+                  <li> Digital Passbook to track your business </li>
+                  <li> Dedicated Relationship manager support </li>
+                  <li> Attractive and scalable remuneration model </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section className="joinNetwork">
+      <div className="container">
+         <div className="row">
+            <div className="col-sm-9">
+               <h4>Join our exclusive network of expert POSP Advisors spread across 500+ cities across India</h4>
+               <a href="" className="round-btn btn orangebtn">Register</a>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+
+<footer>
+      <div className="container">
+        <div className="row">
+         <div className="col-sm-4">
+          <img src="images/mpn-logo-footer.png"/>
+          <p className="phone mt-5"><i className="bi bi-telephone-fill"></i> &nbsp;+91-30303011</p>
+          <p className="mt-3 mb-5"> Private Policy / Terms & Condition. © 2019</p>
+          <ul className="social">
+           <li> <a href=""> <img src="images/twitter.svg"/> </a></li>
+            <li> <a href=""> <img src="images/pinterest.svg"/> </a></li>
+            <li> <a href=""> <img src="images/facebook.svg"/> </a></li>
+            <li> <a href=""> <img src="images/instagram.svg"/> </a></li>
+          </ul>
+
+         </div>
+           <div className="col-sm-2 links">
+            <h3>Links</h3>
+            <ul>
+           
+            <li> <a href=""> HOME</a></li>
+            <li> <a href=""> About</a></li>
+            <li> <a href="">WHY US </a></li>
+            <li> <a href="">Contact </a></li>
+            <li> <a href="">Problems </a></li>
+          </ul>
+         </div>
+           <div className="col-sm-3 contactDetails">
+            <h3>Contact details</h3>
+            <p>E: info@example.com </p>
+            <p>P: +55 104 888 9012</p>
+            <p>1018, 5th Floor, Summit-Business Bay, 
+Behind Gurunanak Petrol Pump, Off Andheri Kurla Road, Beside Magic Bricks WEH metro stn., Andheri (E), 
+Mumbai-400093, Maharashtra (India) .
+</p>
+         </div>
+           <div className="col-sm-3 subscribe">
+            <p>get all the updates of the <br/> lifeguard to your inbox</p>
+            <div className="sbscrbForm">
+              <form>
+                <div className="form-group">
+                 <input type="email" class="form-control" placeholder="Email Address"/>
+                </div>
+                <button className="btn"> Submit </button>
+              </form>
+            </div>
+
+         </div>
+        </div>
+      </div>
+
+      <div className="copyRight">
+        <div className="container">
+         <p> ©2021kesowa. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+<Footer/>
+</>
+  );
+}
+
+export default App;
